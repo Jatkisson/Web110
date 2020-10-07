@@ -1,9 +1,11 @@
-/* James Atkisson 10/1/20 */
+/* James Atkisson 10/7/20 */
 
 body {
-    background-color: #FFFFFF;
+    background-color: lightblue;
+    background-image: linear-gradient(#FFFFFF, #90C7E3);
+    background-repeat: no-repeat;
     color: #666666;
-    font: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -11,33 +13,44 @@ header {
     background-image: url(images/sunset.jpg);
     background-position: right;
     background-repeat: no-repeat;
-    line-height: 400%;
-    text-indent: 1em;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
     color: #FFFFFF;
 }
 
 nav {
     background-color: #BBDEFB;
     font-weight: bold;
+    background-color: #FFFFFF;
+    padding: 1em;
+    text-align: center;
 }
 
 nav a {
     text-decoration: none;
 }
 
+main {
+    padding: 1px 20px 20px 20px;
+    display: block;
+}
+
 h1 {
     margin-bottom: 0;
-    font: Georgia, "Times New Roman", serif;
+    font-family: Georgia, "Times New Roman", serif;
+    margin-top: 0;
 }
 
 h2 {
     color: #1976D2;
-    font: Georgia, "Times New Roman", serif;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px #CCCCCC;
 }
 
 h3 {
     color: #000033;
-    font: Georgia, "Times New Roman", serif;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 ul {
@@ -52,7 +65,8 @@ footer {
     font-size: 75%;
     font-style: italic;
     text-align: center;
-    font: Georgia, "Times New Roman", serif;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 2em;
 }
 
 .resort {
@@ -62,4 +76,35 @@ footer {
 
 #contact {
     font-size: 90%;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px #333333;
+}
+
+#homehero {
+    height: 300px;
+    background-image: url(images/coast.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#yurthero {
+    height: 300px;
+    background-image: url(images/yurt.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#trailhero {
+    height: 300px;
+    background-image: url(images/trail.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
