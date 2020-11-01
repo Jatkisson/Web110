@@ -1,0 +1,160 @@
+/* James Atkisson 10/7/20 */
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EAEAEA;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #002171;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 120px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3em;
+    color: #FFFFFF;
+}
+
+nav {
+    background-color: #BBDEFB;
+    font-weight: bold;
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 160px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #5c7fa3;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #A52A2a;
+}
+
+header a:link a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header a:hover {
+    color: #90C7E3;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding-left: 0%;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 1px 20px 20px 30px;
+    margin-left: 190px;
+    display: block;
+    background-color: #FFFFFF;
+    overflow: auto;
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+}
+
+h2 {
+    color: #1976D2;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px #CCCCCC;
+}
+
+h3 {
+    color: #000033;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+main ul {
+    list-style-image: url(images/marker.gif);
+
+}
+
+dt {
+    color: #002171;
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 2em;
+    margin-left: 190px;
+    background-color: #FFFFFF;
+}
+
+.resort {
+    color: #1976D2;
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #90c7e3;
+    background-image: linear-gradient(#FFFFFF, #90C7E3);
+    border: 1px solid #000033;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px #333333;
+}
+
+#homehero {
+    height: 300px;
+    margin-left: 190px;
+    background-image: url(images/coast2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#yurthero {
+    height: 300px;
+    margin-left: 190px;
+    background-image: url(images/yurt.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#trailhero {
+    height: 300px;
+    margin-left: 190px;
+    background-image: url(images/trail.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
